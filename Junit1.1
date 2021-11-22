@@ -1,0 +1,56 @@
+package io.junit5test;
+
+public class MinMax {
+	
+		int min;
+		int max;
+		public int[] numbers(int a[])  
+		{  
+			int[] arr= new int[2];
+			arr[0]=a[0];
+			arr[1]=a[0];
+			for(int i=1;i<a.length;i++)
+			{
+				if(a[i]>arr[1])
+				{
+					arr[1]=a[i];
+				}
+				if(a[i]<arr[0])
+				{
+					arr[0]=a[i];
+				}
+			}
+			
+			return arr;  
+		}  
+
+	}
+
+package io.junit5test;
+
+public class MinMax {
+	
+		int min;
+		int max;
+		public int[] numbers(int a[])  
+		{  
+			int[] arr= new int[2];
+			arr[0]=a[0];
+			arr[1]=a[0];
+			for(int i=1;i<a.length;i++)
+			{
+				if(a[i]>arr[1])
+				{
+					arr[1]=a[i];
+				}
+				if(a[i]<arr[0])
+				{
+					arr[0]=a[i];
+				}
+			}
+			
+			return arr;  
+		}  
+
+	}
+
